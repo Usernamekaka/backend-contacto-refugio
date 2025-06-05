@@ -4,7 +4,8 @@
   "description": "Backend para formulario de contacto de Refugio Olmué",
   "main": "index.cjs",
   "scripts": {
-    "start": "node index.cjs"
+    "start": "node index.cjs",
+    "dev": "nodemon index.cjs"
   },
   "keywords": [],
   "author": "",
@@ -17,3 +18,4 @@
     "pg": "^8.16.0"
   }
 }
+
