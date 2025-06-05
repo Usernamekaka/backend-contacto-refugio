@@ -2,9 +2,9 @@
   "name": "refugio-backend",
   "version": "1.0.0",
   "description": "Backend para formulario de contacto de Refugio Olmué",
-  "main": "index.js",
+  "main": "index.cjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.cjs"
   },
   "keywords": [],
   "author": "",
