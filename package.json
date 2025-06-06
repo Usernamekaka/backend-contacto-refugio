@@ -1,21 +1,20 @@
 {
-  "name": "refugio-backend",
+  "name": "backend-contacto-refugio",
   "version": "1.0.0",
-  "description": "Backend para formulario de contacto de Refugio Olmué",
-  "main": "index.cjs",
+  "description": "Backend para formulario de contacto del sitio Mi Refugio Olmué",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.cjs",
-    "dev": "nodemon index.cjs"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "nodemailer": "^7.0.3",
-    "pg": "^8.16.0"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.9"
   }
 }
-
+  
